@@ -1,0 +1,13 @@
+name: geoskill-geographically-weighted-regression
+display_name: 地理加权回归
+description: |
+  GWR局部回归+带宽选择+局部系数空间图+局部R2 (Fotheringham/Brunsdon/Charlton 范式, bisquare/gaussian核, AICc带宽选择)
+version: 0.1.0
+author: Mavis
+entrypoint: geoskill-geographically-weighted-regression.py
+runtime: python>=3.9
+tags:
+  - ai
+  - gis
+  - machine-learning
+  - remote-sensing
